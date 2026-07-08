@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  /* Logo */
+  
+  #logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Buttons */
+  #register-now-btn,
+  #why-lgn-btn{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+  }
+  
+  #register-now-btn{
+    background-color: red;
+    border-color: red;
+  }
+
+  #why-lgn-btn{
+    background-color: transparent;
+    border-color: white;
+  }
+
+  #register-now-btn:hover,
+  #why-lgn-btn:hover{
+    opacity: .8;
+  }
+  
+  /* Nav */
+  
+  .nav-wrapper{
+   background-color: rgb(0, 0, 22);
+  }
+  
+  #nav-list{
+    margin-left: 350px;
+  }
+  
+  #nav-list a:hover{
+    opacity: .8;
+  }
+  
+  .nav-wrapper a{
+    color:#dde8ff;
+    font-weight: 400;
+  }
+
+  
+  .sidenav{
+    background-color: rgb(228, 228, 228);
+  }
+  
+  .active-nav-link{
+    background-color: rgb(9, 2, 40, .1);
+  }
+  
+  .active-mobile-nav-link{
+    background-color: rgb(196, 196, 196);
+  }
+  
+  /* Social Media */
+  
+  #icon-facebook-div{
+    top: 7px;
+    right: 60px;
+    font-size: 35px;
+    position: fixed;
+    z-index: 999;
+  }
+
+  #icon-facebook-anchor{
+    color: rgb(33, 41, 255);
+  }
+  
+  #icon-instagram-div{
+    top: 7px;
+    right: 13px;
+    font-size: 35px;
+    position: fixed;
+    z-index: 999;
+  }
+  
+  #icon-facebook-div:hover,
+  #icon-instagram-div:hover{
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  /* Header */
+  
+  #header{
+    background-image: radial-gradient(rgba(2, 0, 21, 0.4),rgba(2, 0, 21, 0.4)), url(images/wildlings_regionals_2023.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 150px;
+  }
+
+  #header h2{
+    color: white;
+  }
+
+  #header-lake-grove-newfield-text{
+    margin-bottom: 10px;
+  }
+
+  #header-soccer-club-text{
+    margin-top: 0px;
+  }
+
+  /* <--------About LGN---------> */
+
+#about-attributes-div{
+    padding-top: 120px;
+    padding-bottom: 70px;
+    color: rgb(0, 0, 38);
+    margin-bottom: 0px;
+}
+
+.about-icon-container{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.about-h3{
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 3px;
+}
+
+#about h3:after{
+    display: block;
+    height: 2px;
+    background-color: #d32a2a;
+    content: " "; 
+    width: 80px;
+    margin: 10px auto;
+}
+
+#about ul{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#about li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style:disc;
+
+}
+
+#about a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color:#8cacde;
+}
+
+#history-of-success-list-container{
+    padding: 30px;
+    border-radius: 60px;
+    border: 1px dotted red;
+    height: 350px;
+    background-color: rgb(255, 253, 253);     
+    color: rgb(0, 0, 27);
+
+}
+
+#pathway-to-college-soccer-list-container{
+    padding: 30px;
+    border-radius: 60px;
+    border: 1px dotted red;
+    height: 350px;
+    background-color: rgb(255, 253, 253);   
+    color: rgb(0, 0, 27);
+}
+
+#program-for-everyone-list-container{
+    padding: 30px;
+    border-radius: 60px;
+    border: 1px dotted red;
+    height: 350px;
+    background-color: rgb(255, 253, 253);  
+    color: rgb(0, 0, 27);
+}
+
+#love-the-game{
+    background-image: radial-gradient(rgb(0, 0, 31,.2), rgb(0, 0, 31,.5),rgb(0, 0, 31,.9), rgb(0, 0, 31,1)), url(images/david-baka.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(212, 243, 255);
+    font-size: 50px;
+}
+
+#creating-elite-players-text,
+#experts-in-soccer-and-education-text{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(3, 0, 26);
+    font-size: 30px;
+    padding: 30px;
+}
+
+#creating-elite-players-text{
+    color: rgb(94, 72, 72);
+    background-color: rgb(247, 247, 247);
+}
+
+#experts-in-soccer-and-education-text{
+    background-color: rgb(255, 249, 249);
+}
+
+#creating-elite-players-pic{
+    background-image: url(images/aidan-donovan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+#experts-in-soccer-and-education-pic{
+    background-image: url(images/ant-energy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-image: linear-gradient(rgb(0, 0, 38, .7),rgb(0, 0, 38, .7)), url(images/field.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 960px;
+    color: white;
+}
+
+#testimonials h3{
+    margin-top: 0px;
+    padding-bottom: 60px;
+    padding-top: 150px;
+}
+
+.testimonials-content{
+    padding: 40px;
+    font-size: 20px;
+}
+
+.blockquote{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-style: italic; 
+    line-height: 145%;
+    position: relative; /*important because the quotation is positioned absolutely so the parent element needs to be positioned relatively*/
+}
+
+.blockquote:before{
+    content:"\201C"; /*quotation mark from https://css-tricks.com/snippets/html/glyphs/*/
+    font-size: 400%;
+    display: block; /*puts quotation mark and text in new lines*/
+    position:absolute;
+    top: -14px;
+    left: 0;
+}
+
+.testimonials-img{
+    width: 130px;
+    border-radius: 300px;
+    margin-top: 30px;
+}
+
+.testimonial-signature{
+    margin-top: 30px;
+}
+
+.testimonial-signature p{
+    text-align: center;
+}
+
+/* <--------Contact Us---------> */
+
+#contact{
+    color: white;
+    padding-bottom: 180px;
+    padding-top: 160px;
+    background-image: linear-gradient(rgb(0, 0, 38, .3),rgb(0, 0, 38, .3)), url(images/sharks.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#contact h2{
+    clear: both;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#contact h2:after{
+    display: block;
+    height: 2px;
+    background-color: #d32a2a;
+    content: " "; 
+    width: 120px;
+    margin: 20px auto;
+}
+
+#contact-intramural,
+#contact-travel{
+    font-size: 30px;
+    text-align: center;
+}
+
+#facebook-container{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    background-color: white;
+}
+
+/* Board */
+
+#board{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+/* Resources */
+
+#resources{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 30px;
+}
+
+#resources a:hover{
+    opacity: .5;
+}
+
+/* Register */
+
+#register{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#register h3{
+    margin-bottom: 60px;
+    border: 1px dotted red;
+    padding: 30px;
+    
+}
+
+#register-winter-programs-tab,
+#register-spring-programs-tab,
+#register-summer-programs-tab,
+#register-fall-programs-tab,
+#register-full-year-programs-tab{
+    font-size: 30px;
+}
+
+.register-program-name{
+    font-size: 25px;
+}
+
+.register-program-name-modal{
+    margin-bottom: 50px;
+    padding-top: 60px;
+}
+
+.register-btn-modal{
+    margin-top: 30px;
+}
+
+.program-details-div{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.program-details-div p{
+    margin: 2px;
+}
+
+.program-description-attribute{
+    border-bottom: 1px solid black;
+}
+
+/* Footer */
+
+#footer a:hover{
+    opacity: .5;
+  }
+
+#footer-1{
+    padding: 50px;
+    color: white;
+    background-color: rgb(0, 0, 32);
+}
+
+#footer-2{
+    background-color: rgb(236, 236, 236);
+    height: 50px;
+    font-size: 10px;
+    padding-top: 17px;
+}
+
+/* Media Querries */
+
+@media only screen and (max-width: 992px){
+    #history-of-success-list-container,
+    #pathway-to-college-soccer-list-container{
+        margin-bottom:70px;
+    }
+    #testimonials{
+        height: 1870px;
+    }
+    #contact-content{
+        padding-bottom: 90px;
+    }
+}
+
+@media only screen and (max-width: 870px){
+    .picture{
+        width: 50%;
+    }
+    #testimonials{
+        height: 2000px;
+        background-image: none;
+        background-color: rgb(4, 0, 20);
+    }
+}
+
+@media only screen and (max-width: 715px){
+    #header{
+        height: 680px;
+    }
+    #testimonials h3{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-top: 100px;
+    }
+    #resources{
+        font-size: 22px;
+    }
+    #register-table{
+        font-size: 30px;
+    }
+    #register-winter-programs-tab,
+    #register-spring-programs-tab,
+    #register-summer-programs-tab,
+    #register-fall-programs-tab,
+    #register-full-year-programs-tab{
+        font-size: 20px;
+    }
+    .register-program-name-modal{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 645px){
+    #header h2{
+        font-size: 40px;
+    }
+    #testimonials{
+        height: 2100px;
+    }
+    #testimonials h3{
+        font-size: 30px;
+    }
+    #board{
+        padding-top: 100px;
+    }
+    #board h4{
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        padding-top: 100px;
+    }
+    #header h2{
+        font-size: 34px;
+    }
+    #register-now-btn{
+        background-color: transparent;
+        border-color: white;
+    }
+    #contact{
+        padding-bottom: 70px;
+        background-position: center;
+    }
+    #contact h2{
+        font-size: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #contact-intramural,
+    #contact-travel{
+        font-size: 22px;
+    }   
+
+    .register-program-name{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .picture{
+        width: 100%;
+    }
+    #love-the-game{
+        height: 400px;
+        font-size: 30px;
+    }
+    #testimonials{
+        height: 2200px;
+    }
+    #resources{
+        font-size: 17px;
+    }
+    #register h3{
+        font-size: 30px;
+    }
+    .register-program-name{
+        font-size: 15px;
+    }
+    #register-winter-programs-tab,
+    #register-spring-programs-tab,
+    #register-summer-programs-tab,
+    #register-fall-programs-tab,
+    #register-full-year-programs-tab{
+        font-size: 15px;
+    }
+    .program-details-div{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #header h2{
+        margin-left: 30px;
+    }
+    #register-now-btn,
+    #why-lgn-btn{
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: 13px;
+    }
+    #contact h2{
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 412px){
+    #testimonials{
+        height: 2300px;
+    }
+    #contact{
+        padding-bottom: 10px;
+    }
+    #contact-intramural,
+    #contact-travel{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #love-the-game{
+        height: 350px;
+        font-size: 30px;
+    }
+
+}
+
+
+  
