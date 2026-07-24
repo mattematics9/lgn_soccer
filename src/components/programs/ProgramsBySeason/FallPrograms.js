@@ -10,13 +10,7 @@ const FallPrograms = ({fallPrograms}) => {
             <thead></thead>
             <tbody>
                 <tr>
-                    <td><a href='https://system.gotsport.com/programs/680V59692?reg_role=player' className='register-program-name' target='_blank' rel='noreferrer'>Intramural</a></td>
-                </tr>
-                <tr>
-                    <td><a href='https://system.gotsport.com/programs/8546A5778?reg_role=player' className='register-program-name' target='_blank' rel='noreferrer'>Pre-Travel Academy</a></td>
-                </tr>
-                <tr>
-                    <td><a href='https://system.gotsport.com/programs/11267328N?reg_role=player' className='register-program-name' target='_blank' rel='noreferrer'>Little Kickers</a></td>
+                    <td><a href='https://system.gotsport.com/programs/6Z5613634?reg_role=player' className='register-program-name' target='_blank' rel='noreferrer'>Intramural</a></td>
                 </tr>
             </tbody>
         </table>

@@ -44,15 +44,15 @@ const Register = () => {
                 {/* <li className="tab col l6 m6 s6">
                     <a href="#register-winter-programs" id='register-winter-programs-tab'>WINTER PROGRAMS</a>
                 </li> */}
-                <li className="tab col l6 m6 s6">
+                {/* <li className="tab col l6 m6 s6">
                     <a href="#register-spring-programs" id='register-spring-programs-tab'>SPRING PROGRAMS</a>
-                </li>
-                {/* <li className="tab col l6 m6 s6">
+                </li> */}
+                <li className="tab col l6 m6 s6">
                     <a href="#register-summer-programs" id='register-summer-programs-tab'>SUMMER PROGRAMS</a>
-                </li> */}
-                {/* <li className="tab col l6 m6 s6">
+                </li>
+                <li className="tab col l6 m6 s6">
                     <a href="#register-fall-programs" id='register-fall-programs-tab'>FALL PROGRAMS</a>
-                </li> */}
+                </li>
                 {/* <li className="tab col l6 m6 s6">
                     <a href="#register-full-year-programs" id='register-full-year-programs-tab'>FULL YEAR PROGRAMS</a>
                 </li>  */}
@@ -61,15 +61,15 @@ const Register = () => {
             {/* <div className="col s12" id="register-winter-programs">
                 <WinterPrograms winterPrograms={winterPrograms}/>
             </div> */}
-            <div className="col s12" id="register-spring-programs">
+            {/* <div className="col s12" id="register-spring-programs">
                 <SpringPrograms springPrograms={springPrograms}/>
-            </div>
-            {/* <div className="col s12" id="register-summer-programs">
+            </div> */}
+            <div className="col s12" id="register-summer-programs">
                 <SummerPrograms summerPrograms={summerPrograms}/>
-            </div> */}
-            {/* <div className="col s12" id="register-fall-programs">
+            </div>
+            <div className="col s12" id="register-fall-programs">
                 <FallPrograms fallPrograms={fallPrograms}/>
-            </div> */}
+            </div>
             {/* <div className="col s12" id="register-full-year-programs">
 
             </div> */}
